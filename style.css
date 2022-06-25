@@ -1,0 +1,502 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 95%;
+    background-color: aliceblue;
+    margin: auto;
+    border: 10px solid black;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+}
+.top-header{
+    width: 100%;
+    height: 100px;
+    background-color:maroon;
+    margin: auto; 
+}
+.menu-bar{
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+.logo img{
+    width: 50%;
+    height: 100%;
+    box-shadow:inset 0px 0px 10px 5px white;
+}
+.menu-item{
+    width: 80%;
+    height: 100%;
+    /* background-color: lightgreen; */
+    float: right;
+}
+.menu-item-list{
+    float: right;
+    width: 60%;
+    height: 60%;
+    /* background-color: blue; */
+    padding-top: 40px;
+}
+.menu-item a{
+    background-color: yellow;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-left: 50px;
+    border-radius: 100px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    box-shadow: inset 0px 0px 10px black;
+}
+.menu-item a:hover{
+    background-color: red;
+    /* color: white; */
+}
+.menu-item a:focus{
+    background-color: gray;
+}
+.menu-item a:active{
+    color: red;
+}
+.btm-header{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./image/bg-image.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding-top: 70px;
+}
+
+.btm-text{
+    height: 250px;
+    width: 40%;
+    background-color: rgba(255, 192, 203, 0.548);
+    margin: auto;
+    color: white;
+    padding-top: 30px;
+    border-radius: 50px 0px 50px 0px;
+}
+.btm-text h1{
+   text-transform: capitalize;
+   color: black;
+   font-weight: 900;
+   font-size: 40px;
+   text-shadow: 0px 0px 5px white;
+   margin-bottom: 20px;
+}
+.btm-text p{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btm-text h2::before{
+    content:"8:00 ";
+    color: greenyellow;
+    text-decoration: underline red;
+}
+.btm-text h2::after{
+    content:" 10:pm";
+    color: midnightblue;
+    text-decoration: underline red;
+}
+.btm-text h2{
+    margin-bottom: 30px;
+    color: black;
+}
+.btm-text a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.btm-text a:hover{
+    background-color: yellow;
+}
+.btm-text a:active{
+    color: red;
+}
+.btm-text a:focus{
+    background-color: gray;
+}
+
+
+
+/* start of main */
+.main{
+    height: 1170px;
+    width: 100%;
+    background-image: linear-gradient(brown,yellow,red);
+}
+
+/* start of menu */
+.menu{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    /* background-color: white; */
+}
+.menu-heading{
+     background-color: green;
+     margin: auto;
+     height: 50px;
+     text-align: center;
+     font-weight: 900;
+     text-shadow: 0px 0px 10px black;
+     color: aqua;
+     padding-top: 5px;
+}
+.chicken,.burger,.combo,.drinks{
+    height: 250px;
+    width: 40%;
+    background-color: red;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+.chicken{
+    background-image: url(./image/chickenfry.PNG);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid black;
+    padding-top: 40px;
+}
+.chicken:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+.chicken h1{
+    font-style: italic;
+    color: black;
+    text-decoration: underline black;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.chicken li{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30%;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    width: 200px;
+}
+.chicken p{
+    margin-bottom: 20px;
+}
+.chicken a{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px;
+}
+.chicken a:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.chicken a:focus{
+    background-color: gray;
+}
+
+.burger{
+    background-image: url(./image/burger.PNG);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid black;
+    padding-top: 40px;
+}
+.burger:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.burger h1{
+    font-style: italic;
+    color: black;
+    text-decoration: underline black;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.burger li{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30%;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    width: 200px;
+}
+.burger p{
+    margin-bottom: 20px;
+}
+.burger a{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px;
+}
+.burger a:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.burger a:focus{
+    background-color: gray;
+}
+.combo{
+    background-image: url(./image/friedrice.PNG);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid black;
+    padding-top: 40px;
+}
+.combo:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.combo h1{
+    font-style: italic;
+    color: black;
+    text-decoration: underline black;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.combo li{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30%;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    width: 200px;
+}
+.combo p{
+    margin-bottom: 20px;
+}
+.combo a{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px;
+}
+.combo a:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.combo a:focus{
+    background-color: gray;
+}
+.drinks{
+    background-image: url(./image/drinks.PNG);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid black;
+    padding-top: 40px;
+}
+.drinks:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+.drinks h1{
+    font-style: italic;
+    color: black;
+    text-decoration: underline black;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.drinks li{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30%;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    width: 200px;
+}
+.drinks p{
+    margin-bottom: 20px;
+}
+.drinks a{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px;
+}
+.drinks a:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.drinks a:focus{
+    background-color: gray;
+}
+
+
+/* start of offer */
+.offer{
+    text-align: center;
+}
+.offer h1{
+    background-color: green;
+     margin: auto;
+     height: 50px;
+     text-align: center;
+     font-weight: 900;
+     text-shadow: 0px 0px 10px black;
+     color: aqua;
+     padding-top: 5px;
+}
+.offer-box{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.offer-box-1,.offer-box-2,.offer-box-3{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    margin: auto;
+    padding-top: 5%;
+    background-image:radial-gradient(pink,hotpink,deeppink) ;
+    box-shadow: inset 0px 0px 10px 10px greenyellow;
+}
+.offer-box-1:hover{
+    box-shadow: inset 0px 0px 10px 10px red;
+}
+.offer-box-2:hover{
+    box-shadow: inset 0px 0px 10px 10px red;
+}
+.offer-box-3:hover{
+    box-shadow: inset 0px 0px 10px 10px red;
+}
+
+.offer-box-1 i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.offer-box-2 i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.offer-box-3 i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.offer-box-1 h2{
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.offer-box-2 h2{
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.offer-box-3 h2{
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.offer-box-1 p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.offer-box-2 p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.offer-box-3 p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.offer-box a{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px;
+}
+.offer-box a:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.offer-box a:focus{
+    background-color: gray;
+}
+
+
+/* start of footer */
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: maroon;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+.find-me h1{
+    font-style: italic;
+}
+.icon-footer a{
+    color: yellow;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.icon-footer a:hover{
+    color: red;
+}
+.icon-footer a:focus{
+    color: gray;
+}
+.copyrights{
+    margin-top: 10px;
+}
+
